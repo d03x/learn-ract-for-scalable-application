@@ -1,5 +1,5 @@
-import "./App.css";
 import ItemListComponent from "./components/items/ItemList.component";
+import { ItemListComponentClass } from "./components/items/ItemList.component.class";
 
 function App() {
   const items = [
@@ -7,10 +7,15 @@ function App() {
       id: 1,
       name: "DADAN HIDAYAT",
     },
+    {
+      id: 2,
+      name: "Agus Hidayat",
+    },
   ];
   return (
     <>
       <ItemListComponent items={items} />
+      <ItemListComponentClass items={items} />
     </>
   );
 }
