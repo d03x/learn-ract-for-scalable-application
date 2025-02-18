@@ -2,7 +2,7 @@ import ItemListComponent from "./components/items/ItemList.component";
 import { ItemListComponentClass } from "./components/items/ItemList.component.class";
 
 function App() {
-  const items = [
+  const items: any[] = [
     {
       id: 1,
       name: "DADAN HIDAYAT",
